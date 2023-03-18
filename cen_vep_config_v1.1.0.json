@@ -88,7 +88,7 @@
     "plugins": [
     {
         "name": "SpliceAI",
-        "pm_file": "file-G8YXQQQ4jKX4bVz53zK7VJX5",
+        "pm_file": "file-GQ7ZJK04vfJVPB7FKybkx0yk",
         "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
         "resource_files": [
           {
@@ -105,7 +105,7 @@
       },
       {
         "name": "REVEL",
-        "pm_file": "file-G9b5pxQ4jKXGP22y4byPpqq8",
+        "pm_file": "file-GQ7Zf4047GqpFvkbQ5X4p535",
         "required_fields":"REVEL",
         "resource_files": [
           {
@@ -116,7 +116,7 @@
       },
       {
         "name": "CADD",
-        "pm_file": "file-G6BYQGQ433Gg0KfZF5xPfv1X",
+        "pm_file": "file-GQ7ZY6841Jgv0Q5PkBbypJy0",
         "required_fields":"CADD_PHRED",
         "resource_files": [
           {
