@@ -13,9 +13,9 @@ This json file provides information about annotations,plugins, required fields a
 
 * Genome build: GRCh37
 * VEP required files:
-  * vep_v105.0.tar.gz
+  * vep_v107.0.tar.gz
   * plugin_config.txt
-  * homo_sapiens_refseq_vep_105_GRCh37.tar.gz
+  * homo_sapiens_refseq_vep_107_GRCh37.tar.gz
   * Homo_sapiens.GRCh37.dna.toplevel.fa.gz
   * Homo_sapiens.GRCh37.dna.toplevel.fa.gz.fai
   * Homo_sapiens.GRCh37.dna.toplevel.fa.gz.gzi
