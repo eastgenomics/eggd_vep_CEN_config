@@ -22,8 +22,8 @@ This json file provides information about annotations,plugins, required fields a
   * hs37d5.fasta-index.tar.gz
 * Custom Annotation sources:
   * clinvar_20220412_grch37.vcf.gz
-  * gnomad.genomes.r2.0.1.sites.noVEP_normalised_decomposed_PASS.vcf.gz
-  * gnomad.exomes.r2.0.2.sites.noVEP_normalised_decomposed_PASS.vcf.gz
+  * gnomad.genomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.vcf.bgz
+  * gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.vcf.bgzoVEP_normalised_decomposed_PASS.vcf.gz
   * TWE_POPAF_N500_chr1-22_220413.vcf.gz
   * HGMD_Pro_2021.4_hg19.vcf.gz
 * Plugin annotations:
