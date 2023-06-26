@@ -37,8 +37,8 @@
         "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_non_cancer_AF",
         "resource_files": [
           {
-          "file_id": "",
-          "index_id":""
+          "file_id": "file-GX8qvXQ4vFPppPXfZqFgzjzk",
+          "index_id":"file-GX9PGb04vFPZzxFv2409Y9Q6"
           }
         ]
       },
