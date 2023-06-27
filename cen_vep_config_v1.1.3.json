@@ -34,7 +34,7 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "AC,AN,AF,nhomalt,non_cancer_AF",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_non_cancer_AF",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_Hom,gnomADg_non_cancer_AF",
         "resource_files": [
           {
           "file_id": "file-GX8qvXQ4vFPppPXfZqFgzjzk",
