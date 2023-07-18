@@ -33,8 +33,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,non_cancer_AF",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_non_cancer_AF",
+        "vcf_fields": "AC,AN,AF",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
         "resource_files": [
           {
           "file_id": "file-GX8qvXQ4vFPppPXfZqFgzjzk",
