@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"CEN",
-        "config_version": "1.1.4"
+        "config_version": "1.1.5"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
