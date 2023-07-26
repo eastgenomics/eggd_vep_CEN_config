@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-GXBpzk84b1z1bgzyV6Xj2Jzf",
-          "index_id":"file-GXBpzq04b1z1XYy36z9yYgZK"
+          "file_id":"file-GXpQkgQ4Xb45Q36644FY48qk",
+          "index_id":"file-GXpQpY04qqK5pK0z04k6175B"
           }
         ]
       },
@@ -79,8 +79,8 @@
         "required_fields":"HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
         "resource_files": [
           {
-          "file_id": "file-GVKGk184jzBzGB4kkXp62GzK",
-          "index_id": "file-GVKGk404jzByPV0X4FjpQJZP"
+          "file_id": "file-GXpV2084ZZKB4VJ9X0ykKGx2",
+          "index_id": "file-GXpV21j4ZZKPbgQQ7y561441"
           }
         ]
       }
