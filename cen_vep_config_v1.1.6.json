@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"CEN",
-        "config_version": "1.1.6"
+        "config_version": "1.1.7"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -47,12 +47,12 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,Hom",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_Hom",
+        "vcf_fields": "AC,AN,AF,nhomalt,non_cancer_AF",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_non_cancer_AF",
         "resource_files": [
           {
-          "file_id": "file-G7vj6504kFX7bQyx258v3f1z",
-          "index_id":"file-G7vj6x04kFX53yZP1kF4x324"
+          "file_id": "file-GY8VpXj4vFPx8zq23VK5jVG8",
+          "index_id":"file-GY912184vFPZYygxvB6KY1kx"
           }
         ]
       },
