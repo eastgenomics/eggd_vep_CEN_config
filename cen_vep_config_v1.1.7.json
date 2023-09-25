@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"CEN",
-        "config_version": "1.1.6"
+        "config_version": "1.1.7"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-GYVX4g04J1YZ1VKg85Yqjvy9",
-          "index_id":"file-GYVX6x84xvQYxf70PGj6PKZZ"
+          "file_id":"file-GZ41Z7Q4X1V62XQ7KZK0Z6Q3",
+          "index_id":"file-GZ41bKQ43Bx117ypXj85VkX6"
           }
         ]
       },
@@ -37,8 +37,8 @@
         "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
         "resource_files": [
           {
-          "file_id": "file-G6zvbFj4Kq40Byxg1vkBq6fQ",
-          "index_id":"file-G6zvbFj4Kq47J4fY1pXGYgbK"
+          "file_id": "file-GYZ8Bg84vFPZ9fxq1J01jyVv",
+          "index_id":"file-GYZ8FF84vFPf6fjg07V7Y6fV"
           }
         ]
       },
@@ -51,8 +51,8 @@
         "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_Hom",
         "resource_files": [
           {
-          "file_id": "file-G7vj6504kFX7bQyx258v3f1z",
-          "index_id":"file-G7vj6x04kFX53yZP1kF4x324"
+          "file_id": "file-GYg0qBj4vFPg9v0bFxVPZ9Kk",
+          "index_id":"file-GYg0qKQ4vFPj9YbkfVqKZjVP"
           }
         ]
       },
