@@ -33,8 +33,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_popmax,gnomADg_AC_popmax,gnomADg_AN_popmax,gnomADg_AF_popmax,gnomADg_nhomalt_popmax",
+        "vcf_fields": "AC,AN,AF,nhomalt,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt,gnomADg_popmax,gnomADg_AC_popmax,gnomADg_AN_popmax,gnomADg_AF_popmax,gnomADg_nhomalt_popmax",
         "resource_files": [
           {
           "file_id": "file-GYZ8Bg84vFPZ9fxq1J01jyVv",
