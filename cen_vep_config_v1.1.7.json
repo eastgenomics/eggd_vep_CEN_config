@@ -47,8 +47,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,nhomalt,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_popmax,gnomADe_AC_popmax,gnomADe_AN_popmax,gnomADe_AF_popmax,gnomADe_nhomalt_popmax",
+        "vcf_fields": "AC,AN,AF,nhomalt,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax,non_cancer_AC,non_cancer_AN,non_cancer_AF,non_cancer_nhomalt,non_cancer_AC_popmax,non_cancer_AN_popmax,non_cancer_AF_popmax,non_cancer_nhomalt_popmax,non_cancer_popmax",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_popmax,gnomADe_AC_popmax,gnomADe_AN_popmax,gnomADe_AF_popmax,gnomADe_nhomalt_popmax,gnomADe_non_cancer_AC,gnomADe_non_cancer_AN,gnomADe_non_cancer_AF,gnomADe_non_cancer_nhomalt,gnomADe_non_cancer_AC_popmax,gnomADe_non_cancer_AN_popmax,gnomADe_non_cancer_AF_popmax,gnomADe_non_cancer_nhomalt_popmax,gnomADe_non_cancer_popmax",
         "resource_files": [
           {
           "file_id": "file-GYg0qBj4vFPg9v0bFxVPZ9Kk",
