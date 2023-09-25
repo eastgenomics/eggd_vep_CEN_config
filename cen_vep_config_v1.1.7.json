@@ -33,7 +33,7 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,Hom",
+        "vcf_fields": "AC,AN,AF,nhomalt",
         "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
         "resource_files": [
           {
@@ -47,8 +47,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,Hom",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_Hom",
+        "vcf_fields": "AC,AN,AF,nhomalt",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt",
         "resource_files": [
           {
           "file_id": "file-GYg0qBj4vFPg9v0bFxVPZ9Kk",
