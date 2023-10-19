@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"CEN",
-        "config_version": "1.1.7"
+        "config_version": "1.1.8"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-GZ41Z7Q4X1V62XQ7KZK0Z6Q3",
-          "index_id":"file-GZ41bKQ43Bx117ypXj85VkX6"
+          "file_id":"file-GZgBGjj4x23k82f7kp98Vj8Y",
+          "index_id":"file-GZgBJBQ4QjP89VfXgG6Xz7X1"
           }
         ]
       },
@@ -79,8 +79,8 @@
         "required_fields":"HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
         "resource_files": [
           {
-          "file_id": "file-GXpV2084ZZKB4VJ9X0ykKGx2",
-          "index_id": "file-GXpV21j4ZZKPbgQQ7y561441"
+          "file_id": "file-GZfZP7Q4ZZK2JY3PFzy99B2p",
+          "index_id": "file-GZfZPG04ZZK8gBkZPpYKJgYk"
           }
         ]
       }
