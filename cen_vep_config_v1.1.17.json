@@ -79,8 +79,8 @@
         "required_fields":"HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
         "resource_files": [
           {
-          "file_id": "file-GjKPk3j4ZZKBxVx7yQ5BJ9Gz",
-          "index_id": "file-GjKPk4Q4ZZK8J493JPK33yj2"
+          "file_id": "file-GpBQyBQ4ZZK70J592Yq624qk",
+          "index_id": "file-GpBQyXj4ZZK5g8kQ217P76zK"
           }
         ]
       }
