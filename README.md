@@ -25,7 +25,7 @@ This json file provides information about annotations,plugins, required fields a
   * gnomad.genomes.r2.1.1.sites.all.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz
   * gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz
   * TWE_POPAF_N500_chr1-22_220413.vcf.gz
-  * HGMD_Pro_2024.1_hg19.vcf.gz
+  * HGMD_Pro_2024.2_hg19.vcf.gz
 * Plugin annotations:
   * REVEL (version May 2022)
     * revel_b37.tsv.gz
