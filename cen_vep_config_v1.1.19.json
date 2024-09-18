@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"CEN",
-        "config_version": "1.1.18"
+        "config_version": "1.1.19"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-Gq1Y1q04pZJXkF96B908F6JY",
-          "index_id":"file-Gq1Y2P049Kp2Jq880x258qqG"
+          "file_id":"file-GqZ19784jq8Z0pvgxf32X5F9",
+          "index_id":"file-GqZ194j468yp3YFX59zKGY7K"
           }
         ]
       },
