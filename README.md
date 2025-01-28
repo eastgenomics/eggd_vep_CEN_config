@@ -33,9 +33,9 @@ These json files provides information about annotations, plugins, required field
   * Medicover38_POPAF_chr1-22_241125.vcf.gz
   * HGMD_Pro_2024.4_hg38.vcf.gz
 * Plugin annotations:
-  * REVEL (version May 2022)
+  * REVEL (v1.3, May 2022)
     * revel_b38.tsv.gz
-  * CADD (v1.6)
+  * CADD (v1.7)
     * cadd_1.7_b38_whole_genome_SNVs.tsv.gz
     * cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz
   * SpliceAI
@@ -61,7 +61,7 @@ These json files provides information about annotations, plugins, required field
   * TWE_POPAF_N500_chr1-22_220413.vcf.gz
   * HGMD_Pro_2024.3_hg19.vcf.gz
 * Plugin annotations:
-  * REVEL (version May 2022)
+  * REVEL (v1.3, May 2022)
     * revel_b37.tsv.gz
   * CADD (v1.6)
     * cadd_whole_genome_SNVs_GRCh37.tsv.gz
