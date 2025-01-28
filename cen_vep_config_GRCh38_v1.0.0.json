@@ -1,0 +1,177 @@
+  {
+    "config_information":{
+        "genome_build": "GRCh38",
+        "assay":"CEN",
+        "config_version": "1.0.0"
+    },
+        "vep_resources":{
+        "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
+        "plugin_config":"file-GQ7Yzz04XB7q1vZyY9pQGyjp",
+        "vep_cache":"file-GQ7Yqpj4qpBvpby694GgX92x",
+        "reference_fasta":"file-G61y95Q433Gk05zyFKF9kFv2",
+        "reference_fai":"file-G61yBV8433GjbVj022PyV3K5",
+        "reference_gzi":"file-G61yBf0433Gp4BBVGj0jxqvP",
+        "ref_bcftools":"file-Gb772VQ4XGyzQ0Zk615XbZ0X"
+    },
+    "custom_annotations": [
+      {
+        "name": "ClinVar",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "CLNSIG,CLNREVSTAT,CLNDN,CLNSIGCONF",
+        "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
+        "resource_files": [
+          {
+          "file_id":"file-Gy72J784jBjZxFxp32GpX6pY",
+          "index_id":"file-Gy72Q2j4XjbkP7FGQGjjjqZb"
+          }
+        ]
+      },
+      {
+        "name": "gnomADg",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AC,AN,AF,nhomalt",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt",
+        "resource_files": [
+          {
+          "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
+          "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
+          }
+        ]
+      },
+      {
+        "name": "gnomADe",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AC,AN,AF,nhomalt",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt",
+        "resource_files": [
+          {
+          "file_id": "file-GvJqP704JBpk2YBB1PzJQkb2",
+          "index_id":"file-GvJqPxQ4JBpz9y18zPg7f5F0"
+          }
+        ]
+      },
+      {
+        "name": "CEN",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
+        "required_fields":"CEN_AF,CEN_AC_Hom,CEN_AC_Het,CEN_AN",
+        "resource_files": [
+          {
+          "file_id": "file-GjpKK5Q4bxf3B581FGVZy1f5",
+          "index_id": "file-GjpKKF04bxfJqJqgz543J26g"
+          }
+        ]
+      },
+      {
+        "name": "TWE",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
+        "required_fields":"TWE_AF,TWE_AC_Hom,TWE_AC_Het,TWE_AN",
+        "resource_files": [
+          {
+          "file_id": "file-GvzXFkj4JkPFK5VKYkjZKzzY",
+          "index_id": "file-GvzZX904JkP84BQqxvyqG4Pg"
+          }
+        ]
+      },
+      {
+        "name": "Medicover",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
+        "required_fields":"Medicover_AF,Medicover_AC_Hom,Medicover_AC_Het,Medicover_AN",
+        "resource_files": [
+          {
+          "file_id": "file-Gx2KV804Pf00Bj3bkXxvf7qk",
+          "index_id": "file-Gx2KVj04Pf09Jq32pbbxyyb3"
+          }
+        ]
+      },
+      {
+        "name": "HGMD",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "PHEN,RANKSCORE,CLASS",
+        "required_fields":"HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
+        "resource_files": [
+          {
+          "file_id": "file-Gy7pJzj41kgFgbYjBKyPg378",
+          "index_id": "file-Gy7pKY841kgFgbYjBKyPg389"
+          }
+        ]
+      }
+    ],
+    "plugins": [
+    {
+        "name": "SpliceAI",
+        "pm_file": "file-GQ7ZJK04vfJVPB7FKybkx0yk",
+        "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
+        "resource_files": [
+          {
+            "file_id": "file-G9FFZ18433GpzFVy9XxfyBG4",
+            "index_id": "file-G9FFZb8433GvX5jJ23bQB2z7",
+            "prefix": "snv="
+          },
+          {
+            "file_id": "file-G9FFGbQ433GbXjxQBYy79X75",
+            "index_id": "file-G9FFGX0433GqkpYv23jB853V",
+            "prefix": "indel="
+          }
+        ]
+      },
+      {
+        "name": "REVEL",
+        "pm_file": "file-GQ7Zf4047GqpFvkbQ5X4p535",
+        "required_fields":"REVEL",
+        "resource_files": [
+          {
+            "file_id": "file-G9bzGjQ433GxQQ844VP65q4Z",
+            "index_id": "file-G9bzKz0433Gx66X058gYBYbB"
+          }
+        ]
+      },
+      {
+        "name": "CADD",
+        "pm_file": "file-GQ7ZY6841Jgv0Q5PkBbypJy0",
+        "required_fields":"CADD_PHRED",
+        "resource_files": [
+          {
+            "file_id": "file-GvXK0Zj463q3JyB4k1Z6kFqJ",
+            "index_id": "file-GvXJ4304ZJz333bkQX06vKZx"
+          },
+          {
+            "file_id": "file-GvXJ5J041Jq97byQfyb9JF3z",
+            "index_id": "file-GvXJ5Vj4k5331YfvbVz98J22"
+          }
+        ]
+      }
+    ],
+    "additional_fields":[
+        "Allele",
+        "SYMBOL",
+        "HGNC_ID",
+        "VARIANT_CLASS",
+        "Consequence",
+        "IMPACT",
+        "EXON",
+        "INTRON",
+        "Feature",
+        "HGVSc",
+        "HGVSp",
+        "HGVS_OFFSET",
+        "Existing_variation",
+        "STRAND"
+    ]
+  }
