@@ -33,8 +33,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,nhomalt",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt",
+        "vcf_fields": "AC,AN,AF,nhomalt,grpmax,AC_grpmax,AN_grpmax,AF_grpmax,nhomalt_grpmax",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt,gnomADg_grpmax,gnomADg_AC_grpmax,gnomADg_AN_grpmax,gnomADg_AF_grpmax,gnomADg_nhomalt_grpmax",
         "resource_files": [
           {
           "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
@@ -47,8 +47,8 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,nhomalt",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt",
+        "vcf_fields": "AC,AN,AF,nhomalt,grpmax,AC_grpmax,AN_grpmax,AF_grpmax,nhomalt_grpmax",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_grpmax,gnomADe_AC_grpmax,gnomADe_AN_grpmax,gnomADe_AF_grpmax,gnomADe_nhomalt_grpmax",
         "resource_files": [
           {
           "file_id": "file-GvJqP704JBpk2YBB1PzJQkb2",
