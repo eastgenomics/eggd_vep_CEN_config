@@ -13,63 +13,25 @@ A variable level of annotation can be achieved by different combinations of cust
 This config repo contains two json files for the genome builds GRCh38 and GRCh37.
 These json files provides information about annotations, plugins, required fields and the genome version.
 
-### GRCh38
-
-* Genome build: GRCh38
-* VEP required files:
-  * vep_v107.0.tar.gz
-  * plugin_config.txt
-  * homo_sapiens_refseq_vep_107_GRCh38.tar.gz
-  * Homo_sapiens.GRCh38.dna.toplevel.fa.gz
-  * Homo_sapiens.GRCh38.dna.toplevel.fa.gz.fai
-  * Homo_sapiens.GRCh38.dna.toplevel.fa.gz.gzi
-  * GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz
-* Custom Annotation sources:
-  * clinvar_20250115_GRCh38.vcf.gz
-  * gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
-  * gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz
-  * CEN38_POPAF_chr1-22_240503.vcf.gz
-  * TWE38_POPAF_chr1-22_241126.vcf.gz
-  * Medicover38_POPAF_chr1-22_241125.vcf.gz
-  * HGMD_Pro_2024.4_hg38.vcf.gz
-* Plugin annotations:
-  * REVEL (v1.3, May 2022)
-    * revel_b38.tsv.gz
-  * CADD (v1.7)
-    * cadd_1.7_b38_whole_genome_SNVs.tsv.gz
-    * cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz
-  * SpliceAI
-    * spliceai_scores.masked.snv.hg38.vcf.gz
-    * spliceai_scores.masked.indel.hg38.vcf.gz
-
-
-### GRCh37
-
-* Genome build: GRCh37
-* VEP required files:
-  * vep_v107.0.tar.gz
-  * plugin_config.txt
-  * homo_sapiens_refseq_vep_107_GRCh37.tar.gz
-  * Homo_sapiens.GRCh37.dna.toplevel.fa.gz
-  * Homo_sapiens.GRCh37.dna.toplevel.fa.gz.fai
-  * Homo_sapiens.GRCh37.dna.toplevel.fa.gz.gzi
-  * hs37d5.fasta-index.tar.gz
-* Custom Annotation sources:
-  * clinvar_20241215_GRCh37.vcf.gz
-  * gnomad.genomes.r2.1.1.sites.all.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz
-  * gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz
-  * TWE_POPAF_N500_chr1-22_220413.vcf.gz
-  * HGMD_Pro_2024.3_hg19.vcf.gz
-* Plugin annotations:
-  * REVEL (v1.3, May 2022)
-    * revel_b37.tsv.gz
-  * CADD (v1.6)
-    * cadd_whole_genome_SNVs_GRCh37.tsv.gz
-    * gnomad.genomes.r2.1.1.indel.tsv.gz
-    * InDels_GRCh37.tsv.gz
-  * SpliceAI
-    * spliceai_scores.masked.snv.hg19.vcf.gz
-    * spliceai_scores.masked.indel.hg19.vcf.gz
+| Key | GRCh37 | GRCh38 |
+|--------------|--------------|--------------|
+| **vep_docker** | vep_v107.0.tar.gz | vep_v107.0.tar.gz |
+| **plugin_config** | plugin_config.txt | plugin_config.txt |
+| **vep_cache** | homo_sapiens_refseq_vep_107_GRCh37.tar.gz | homo_sapiens_refseq_vep_107_GRCh38.tar.gz |
+| **reference_fasta** | Homo_sapiens.GRCh37.dna.toplevel.fa.gz | Homo_sapiens.GRCh38.dna.toplevel.fa.gz |
+| **reference_fai** | Homo_sapiens.GRCh37.dna.toplevel.fa.gz.fai | Homo_sapiens.GRCh38.dna.toplevel.fa.gz.fai |
+| **reference_gzi** | Homo_sapiens.GRCh37.dna.toplevel.fa.gz.gzi | Homo_sapiens.GRCh38.dna.toplevel.fa.gz.gzi |
+| **ref_bcftools** | hs37d5.fasta-index.tar.gz | GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz |
+| **ClinVar** | clinvar_20250115_GRCh37.vcf.gz | clinvar_20250115_GRCh38.vcf.gz | clinvar_20250115_GRCh38.vcf.gz |
+| **gnomAD genomes** | gnomad.genomes.r2.1.1.sites.all.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
+| **gnomAD exomes** | gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
+| **CEN** | - | CEN38_POPAF_chr1-22_240503.vcf.gz |
+| **TWE** | TWE_POPAF_N500_chr1-22_220413.vcf.gz | TWE38_POPAF_chr1-22_241126.vcf.gz |
+| **Medicover** | - | Medicover38_POPAF_chr1-22_241125.vcf.gz |
+| **HGMD** | HGMD_Pro_2024.4_hg19.vcf.gz | HGMD_Pro_2024.4_hg38.vcf.gz |
+| **REVEL** | revel_b37.tsv.gz (v1.3, May 2022) | revel_b38.tsv.gz (v1.3 May 2022)
+| **CADD** | cadd_whole_genome_SNVs_GRCh37.tsv.gz, gnomad.genomes.r2.1.1.indel.tsv.gz, InDels_GRCh37.tsv.gz | cadd_1.7_b38_whole_genome_SNVs.tsv.gz,cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz |
+| **SpliceAI** | spliceai_scores.masked.snv.hg19.vcf.gz, spliceai_scores.masked.indel.hg19.vcf.gz | spliceai_scores.masked.snv.hg38.vcf.gz,spliceai_scores.masked.indel.hg38.vcf.gz |
 
 ## Notes
 
