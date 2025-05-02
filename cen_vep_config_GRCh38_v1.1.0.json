@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay":"CEN",
-        "config_version": "1.0.1"
+        "config_version": "1.1.0"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -109,6 +109,34 @@
           {
           "file_id": "file-J03qfBQ41kg39PFXF32p46QB",
           "index_id": "file-J03qfVj41kg0y9qFp5JzV5q0"
+          }
+        ]
+      },
+      {
+        "name": "ExcludeVariant",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "ExcludeList",
+        "required_fields":"ExcludeVariant_ExcludeList",
+        "resource_files": [
+          {
+          "file_id":"file-J08F84j4z6jBfYgX5VJYYP5q",
+          "index_id":"file-J08F86Q4z6j6bP1pBFBJxJ7q"
+          }
+        ]
+      },
+      {
+        "name": "IncludeVariant",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "IncludeList",
+        "required_fields":"IncludeVariant_IncludeList",
+        "resource_files": [
+          {
+          "file_id":"file-J08F8Fj4z6j4PPVyJ0qv5b4P",
+          "index_id":"file-J08F8Gj4z6j02Jz1Zj9XfvXf"
           }
         ]
       }
