@@ -28,7 +28,7 @@ These json files provides information about annotations, plugins, required field
 | **CEN** | - | CEN38_POPAF_chr1-22_240503.vcf.gz |
 | **TWE** | TWE_POPAF_N500_chr1-22_220413.vcf.gz | TWE38_POPAF_chr1-22_241126.vcf.gz |
 | **Medicover** | - | Medicover38_POPAF_chr1-22_241125.vcf.gz |
-| **HGMD** | HGMD_Pro_2025.1_hg19.vcf.gz | HGMD_Pro_2025.2_hg38.vcf.gz |
+| **HGMD** | HGMD_Pro_2025.1_hg19.vcf.gz | HGMD_Pro_2025.3_hg38.vcf.gz |
 | **REVEL** | revel_b37.tsv.gz (v1.3, May 2022) | revel_b38.tsv.gz (v1.3, May 2022) |
 | **CADD** | cadd_whole_genome_SNVs_GRCh37.tsv.gz, gnomad.genomes.r2.1.1.indel.tsv.gz, InDels_GRCh37.tsv.gz | cadd_1.7_b38_whole_genome_SNVs.tsv.gz, cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz |
 | **SpliceAI** | spliceai_scores.masked.snv.hg19.vcf.gz, spliceai_scores.masked.indel.hg19.vcf.gz | spliceai_scores.masked.snv.hg38.vcf.gz, spliceai_scores.masked.indel.hg38.vcf.gz |
