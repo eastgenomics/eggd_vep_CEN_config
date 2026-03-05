@@ -57,12 +57,26 @@
         ]
       },
       {
-        "name": "varstore",
+        "name": "TWE_varstore",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "TWE_v1_HET_COUNT,TWE_v1_HOM_COUNT,TWE_v1_AC,TWE_v1_AN,TWE_v1_AF",
+        "required_fields": "TWE_varstore_TWE_v1_HET_COUNT,TWE_varstore_TWE_v1_HOM_COUNT,TWE_varstore_TWE_v1_AC,TWE_varstore_TWE_v1_AN,TWE_varstore_TWE_v1_AF",
+        "resource_files": [
+          {
+          "file_id": "file-J5ZVxg84XjqGjqjzyXbjK7q7",
+          "index_id": "file-J5ZVxjQ4XjqGvGypFv3Q5KKX"
+          }
+        ]
+      },
+      {
+        "name": "CEN_varstore",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "CEN_v1_HET_COUNT,CEN_v1_HOM_COUNT,CEN_v1_AC,CEN_v1_AN,CEN_v1_AF",
-        "required_fields": "varstore_CEN_v1_HET_COUNT,varstore_CEN_v1_HOM_COUNT,varstore_CEN_v1_AC,varstore_CEN_v1_AN,varstore_CEN_v1_AF",
+        "required_fields": "CEN_varstore_CEN_v1_HET_COUNT,CEN_varstore_CEN_v1_HOM_COUNT,CEN_varstore_CEN_v1_AC,CEN_varstore_CEN_v1_AN,CEN_varstore_CEN_v1_AF",
         "resource_files": [
           {
           "file_id": "file-J5ZVv1j4JgjX6pxb9ZpXK3Jq",
@@ -113,18 +127,18 @@
         ]
       },
       {
-	"name": "Prev_Interpret",
-	"type": "vcf",
-	"annotation_type": "exact",
-	"force_coordinates": "0",
-	"vcf_fields": "LATEST_GERMLINE,TOTAL_GERMLINE,LATEST_DATE,LATEST_SAMPLE_ID,AGGREGATED_HGVS",
-	"required_fields": "Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
-	"resource_files": [
+        "name": "Prev_Interpret",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "LATEST_GERMLINE,TOTAL_GERMLINE,LATEST_DATE,LATEST_SAMPLE_ID,AGGREGATED_HGVS",
+        "required_fields": "Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
+        "resource_files": [
           {
-	  "file_id": "file-J6Z4Ypj4bq82BKkk4xy1Jvfv",
-	  "index_id": "file-J6Z4Yv04bq85BkVGkfvXk2Vx"
+          "file_id": "file-J6Z4Ypj4bq82BKkk4xy1Jvfv",
+          "index_id": "file-J6Z4Yv04bq85BkVGkfvXk2Vx"
           }
-	]
+        ]
       }
     ],
     "plugins": [
