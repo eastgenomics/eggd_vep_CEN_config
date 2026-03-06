@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay":"CEN",
-        "config_version": "1.1.9"
+        "config_version": "1.2.0"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
         "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-J5g0Zqj4kBK89073jXQ58p40",
-          "index_id":"file-J5g0yx04GkfPpx3J5ZQq8FBK"
+          "file_id":"file-J69K6x04Y09KjB575Jq8BQ3p",
+          "index_id":"file-J69K7J04Kb05P4F8qy45fY5G"
           }
         ]
       },
@@ -57,44 +57,30 @@
         ]
       },
       {
-        "name": "CEN",
-        "type": "vcf",
-        "annotation_type": "exact",
-        "force_coordinates": "0",
-        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
-        "required_fields":"CEN_AF,CEN_AC_Hom,CEN_AC_Het,CEN_AN",
-        "resource_files": [
-          {
-          "file_id": "file-GjpKK5Q4bxf3B581FGVZy1f5",
-          "index_id": "file-GjpKKF04bxfJqJqgz543J26g"
-          }
-        ]
-      },
-      {
         "name": "TWE",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
-        "required_fields":"TWE_AF,TWE_AC_Hom,TWE_AC_Het,TWE_AN",
+        "vcf_fields": "WES_v1_HET_COUNT,WES_v1_HOM_COUNT,WES_v1_AC,WES_v1_AN,WES_v1_AF",
+        "required_fields": "TWE_WES_v1_HET_COUNT,TWE_WES_v1_HOM_COUNT,TWE_WES_v1_AC,TWE_WES_v1_AN,TWE_WES_v1_AF",
         "resource_files": [
           {
-          "file_id": "file-GvzXFkj4JkPFK5VKYkjZKzzY",
-          "index_id": "file-GvzZX904JkP84BQqxvyqG4Pg"
+          "file_id": "file-J5ZVxg84XjqGjqjzyXbjK7q7",
+          "index_id": "file-J5ZVxjQ4XjqGvGypFv3Q5KKX"
           }
         ]
       },
       {
-        "name": "Medicover",
+        "name": "CEN",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
-        "required_fields":"Medicover_AF,Medicover_AC_Hom,Medicover_AC_Het,Medicover_AN",
+        "vcf_fields": "CEN_v1_HET_COUNT,CEN_v1_HOM_COUNT,CEN_v1_AC,CEN_v1_AN,CEN_v1_AF",
+        "required_fields": "CEN_CEN_v1_HET_COUNT,CEN_CEN_v1_HOM_COUNT,CEN_CEN_v1_AC,CEN_CEN_v1_AN,CEN_CEN_v1_AF",
         "resource_files": [
           {
-          "file_id": "file-Gx2KV804Pf00Bj3bkXxvf7qk",
-          "index_id": "file-Gx2KVj04Pf09Jq32pbbxyyb3"
+          "file_id": "file-J5ZVv1j4JgjX6pxb9ZpXK3Jq",
+          "index_id": "file-J5ZVv304JgjX6pxb9ZpXK3K9"
           }
         ]
       },
@@ -121,8 +107,8 @@
         "required_fields":"ExcludeVariant_ExcludeList",
         "resource_files": [
           {
-          "file_id":"file-J1602g84zV9kbzK3FPz9PZx3",
-          "index_id":"file-J1608Q04zV9qjKk30qX3Y176"
+          "file_id":"file-J6G9q6j4V702Q6j947jgyb0j",
+          "index_id":"file-J6G9vXQ4V70K6p2PZ0Vffgfq"
           }
         ]
       },
@@ -137,6 +123,20 @@
           {
           "file_id":"file-J08F8Fj4z6j4PPVyJ0qv5b4P",
           "index_id":"file-J08F8Gj4z6j02Jz1Zj9XfvXf"
+          }
+        ]
+      },
+      {
+        "name": "Prev_Interpret",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "LATEST_GERMLINE,TOTAL_GERMLINE,LATEST_DATE,LATEST_SAMPLE_ID,AGGREGATED_HGVS",
+        "required_fields": "Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
+        "resource_files": [
+          {
+          "file_id": "file-J6Z4Ypj4bq82BKkk4xy1Jvfv",
+          "index_id": "file-J6Z4Yv04bq85BkVGkfvXk2Vx"
           }
         ]
       }
