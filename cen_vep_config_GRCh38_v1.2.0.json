@@ -57,12 +57,12 @@
         ]
       },
       {
-        "name": "TWE_varstore",
+        "name": "TWE",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "TWE_v1_HET_COUNT,TWE_v1_HOM_COUNT,TWE_v1_AC,TWE_v1_AN,TWE_v1_AF",
-        "required_fields": "TWE_varstore_TWE_v1_HET_COUNT,TWE_varstore_TWE_v1_HOM_COUNT,TWE_varstore_TWE_v1_AC,TWE_varstore_TWE_v1_AN,TWE_varstore_TWE_v1_AF",
+        "required_fields": "WES_v1_HET_COUNT,WES_v1_HOM_COUNT,WES_v1_AC,WES_v1_AN,WES_v1_AF",
         "resource_files": [
           {
           "file_id": "file-J5ZVxg84XjqGjqjzyXbjK7q7",
@@ -71,7 +71,7 @@
         ]
       },
       {
-        "name": "CEN_varstore",
+        "name": "CEN",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
