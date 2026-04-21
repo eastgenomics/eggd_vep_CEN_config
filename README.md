@@ -27,7 +27,7 @@ These json files provides information about annotations, plugins, required field
 | **gnomAD exomes** | gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
 | **TWE** | TWE_POPAF_N500_chr1-22_220413.vcf.gz | 260115_variant_store_GRCh38_WES_v1.vcf.gz |
 | **CEN** | - | 260115_variant_store_GRCh38_CEN_v1.vcf.gz |
-| **HGMD** | HGMD_Pro_2025.1_hg19.vcf.gz | HGMD_Pro_2025.4_hg38.vcf.gz |
+| **HGMD** | HGMD_Pro_2025.1_hg19.vcf.gz | HGMD_Pro_2026.1_hg38.vcf.gz |
 | **REVEL** | revel_b37.tsv.gz (v1.3, May 2022) | revel_b38.tsv.gz (v1.3, May 2022) |
 | **CADD** | cadd_whole_genome_SNVs_GRCh37.tsv.gz, gnomad.genomes.r2.1.1.indel.tsv.gz, InDels_GRCh37.tsv.gz | cadd_1.7_b38_whole_genome_SNVs.tsv.gz, cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz |
 | **SpliceAI** | spliceai_scores.masked.snv.hg19.vcf.gz, spliceai_scores.masked.indel.hg19.vcf.gz | spliceai_scores.masked.snv.hg38.vcf.gz, spliceai_scores.masked.indel.hg38.vcf.gz |
