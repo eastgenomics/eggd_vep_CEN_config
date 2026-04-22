@@ -1,17 +1,17 @@
   {
     "config_information":{
         "genome_build": "GRCh38",
-        "assay":"CEN",
-        "config_version": "1.2.1"
+        "assay": "CEN",
+        "config_version": "1.2.2"
     },
         "vep_resources":{
-        "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
-        "plugin_config":"file-GQ7Yzz04XB7q1vZyY9pQGyjp",
-        "vep_cache":"file-GQ7Yqpj4qpBvpby694GgX92x",
-        "reference_fasta":"file-G61y95Q433Gk05zyFKF9kFv2",
-        "reference_fai":"file-G61yBV8433GjbVj022PyV3K5",
-        "reference_gzi":"file-G61yBf0433Gp4BBVGj0jxqvP",
-        "ref_bcftools":"file-Gb772VQ4XGyzQ0Zk615XbZ0X"
+        "vep_docker": "file-GQ7Z9y84xyx28bzFGx5jkxkG",
+        "plugin_config": "file-GQ7Yzz04XB7q1vZyY9pQGyjp",
+        "vep_cache": "file-GQ7Yqpj4qpBvpby694GgX92x",
+        "reference_fasta": "file-G61y95Q433Gk05zyFKF9kFv2",
+        "reference_fai": "file-G61yBV8433GjbVj022PyV3K5",
+        "reference_gzi": "file-G61yBf0433Gp4BBVGj0jxqvP",
+        "ref_bcftools": "file-Gb772VQ4XGyzQ0Zk615XbZ0X"
     },
     "custom_annotations": [
       {
@@ -20,11 +20,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "CLNSIG,CLNREVSTAT,CLNDN,CLNSIGCONF",
-        "required_fields":"ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
+        "required_fields": "ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id":"file-J6gF9384F1YzQ5Vq72Qy0fpk",
-          "index_id":"file-J6gFKK04ZG96bqxz88BqQXg1"
+          "file_id": "file-J7P5ZQ84bkXqqkv7XKp1Bqb4",
+          "index_id": "file-J7P5b1j430XzzJ1jxBQGbGBX"
           }
         ]
       },
@@ -34,11 +34,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "AC,AN,AF,nhomalt,grpmax,AC_grpmax,AN_grpmax,AF_grpmax,nhomalt_grpmax",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt,gnomADg_grpmax,gnomADg_AC_grpmax,gnomADg_AN_grpmax,gnomADg_AF_grpmax,gnomADg_nhomalt_grpmax",
+        "required_fields": "gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt,gnomADg_grpmax,gnomADg_AC_grpmax,gnomADg_AN_grpmax,gnomADg_AF_grpmax,gnomADg_nhomalt_grpmax",
         "resource_files": [
           {
           "file_id": "file-Gv81v784JBpxkK585b4FY9b2",
-          "index_id":"file-GvZBvy84JBpYG2yypqQPq3zP"
+          "index_id": "file-GvZBvy84JBpYG2yypqQPq3zP"
           }
         ]
       },
@@ -48,11 +48,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "AC,AN,AF,nhomalt,grpmax,AC_grpmax,AN_grpmax,AF_grpmax,nhomalt_grpmax",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_grpmax,gnomADe_AC_grpmax,gnomADe_AN_grpmax,gnomADe_AF_grpmax,gnomADe_nhomalt_grpmax",
+        "required_fields": "gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_grpmax,gnomADe_AC_grpmax,gnomADe_AN_grpmax,gnomADe_AF_grpmax,gnomADe_nhomalt_grpmax",
         "resource_files": [
           {
           "file_id": "file-GvJqP704JBpk2YBB1PzJQkb2",
-          "index_id":"file-GvJqPxQ4JBpz9y18zPg7f5F0"
+          "index_id": "file-GvJqPxQ4JBpz9y18zPg7f5F0"
           }
         ]
       },
@@ -90,11 +90,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "PHEN,RANKSCORE,CLASS",
-        "required_fields":"HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
+        "required_fields": "HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
         "resource_files": [
           {
-          "file_id": "file-J5ggX2841kg1q4Xxg7yZxpq6",
-          "index_id": "file-J5ggX7Q41kg17Z02kzzbYG18"
+          "file_id": "file-J7P616Q41kgBYQzz8XpgVbQj",
+          "index_id": "file-J7P61Bj41kgBQQ6x534jVpGk"
           }
         ]
       },
@@ -104,11 +104,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "ExcludeList",
-        "required_fields":"ExcludeVariant_ExcludeList",
+        "required_fields": "ExcludeVariant_ExcludeList",
         "resource_files": [
           {
-          "file_id":"file-J6G9q6j4V702Q6j947jgyb0j",
-          "index_id":"file-J6G9vXQ4V70K6p2PZ0Vffgfq"
+          "file_id": "file-J6G9q6j4V702Q6j947jgyb0j",
+          "index_id": "file-J6G9vXQ4V70K6p2PZ0Vffgfq"
           }
         ]
       },
@@ -118,11 +118,11 @@
         "annotation_type": "exact",
         "force_coordinates": "0",
         "vcf_fields": "IncludeList",
-        "required_fields":"IncludeVariant_IncludeList",
+        "required_fields": "IncludeVariant_IncludeList",
         "resource_files": [
           {
-          "file_id":"file-J08F8Fj4z6j4PPVyJ0qv5b4P",
-          "index_id":"file-J08F8Gj4z6j02Jz1Zj9XfvXf"
+          "file_id": "file-J08F8Fj4z6j4PPVyJ0qv5b4P",
+          "index_id": "file-J08F8Gj4z6j02Jz1Zj9XfvXf"
           }
         ]
       },
@@ -135,8 +135,8 @@
         "required_fields": "Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
         "resource_files": [
           {
-          "file_id": "file-J70QX4Q4bq83VqJ9ZyX4gX6q",
-          "index_id": "file-J70QX5j4bq89QjpGzF2BxB39"
+          "file_id": "file-J7V0q4Q4bq8PVQ137J7P2kJy",
+          "index_id": "file-J7V0q5j4bq86kB06XpqQBPXf"
           }
         ]
       }
@@ -145,7 +145,7 @@
     {
         "name": "SpliceAI",
         "pm_file": "file-GQ7ZJK04vfJVPB7FKybkx0yk",
-        "required_fields":"SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
+        "required_fields": "SpliceAI_pred_DS_AG,SpliceAI_pred_DS_AL,SpliceAI_pred_DS_DG,SpliceAI_pred_DS_DL,SpliceAI_pred_DP_AG,SpliceAI_pred_DP_AL,SpliceAI_pred_DP_DG,SpliceAI_pred_DP_DL",
         "resource_files": [
           {
             "file_id": "file-G9FFZ18433GpzFVy9XxfyBG4",
@@ -162,7 +162,7 @@
       {
         "name": "REVEL",
         "pm_file": "file-GQ7Zf4047GqpFvkbQ5X4p535",
-        "required_fields":"REVEL",
+        "required_fields": "REVEL",
         "resource_files": [
           {
             "file_id": "file-G9bzGjQ433GxQQ844VP65q4Z",
@@ -173,7 +173,7 @@
       {
         "name": "CADD",
         "pm_file": "file-GQ7ZY6841Jgv0Q5PkBbypJy0",
-        "required_fields":"CADD_PHRED",
+        "required_fields": "CADD_PHRED",
         "resource_files": [
           {
             "file_id": "file-GvXK0Zj463q3JyB4k1Z6kFqJ",
