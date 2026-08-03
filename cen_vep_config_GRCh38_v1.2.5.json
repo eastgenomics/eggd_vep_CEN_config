@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh38",
         "assay": "CEN",
-        "config_version": "1.2.4"
+        "config_version": "1.2.5"
     },
         "vep_resources":{
         "vep_docker": "file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -23,8 +23,8 @@
         "required_fields": "ClinVar,ClinVar_CLNSIG,ClinVar_CLNSIGCONF,ClinVar_CLNDN",
         "resource_files": [
           {
-          "file_id": "file-J8b90Q04B9fqXx7bJpQKf776",
-          "index_id": "file-J8b90P844pPBBvqzZjxYb008"
+          "file_id": "file-J9BPB8Q4f6k4B0q1vkG1Z8KF",
+          "index_id": "file-J9BPBb04Y8JxGBX8qyVyKF5j"
           }
         ]
       },
@@ -93,8 +93,8 @@
         "required_fields": "HGMD,HGMD_PHEN,HGMD_CLASS,HGMD_RANKSCORE",
         "resource_files": [
           {
-          "file_id": "file-J7P616Q41kgBYQzz8XpgVbQj",
-          "index_id": "file-J7P61Bj41kgBQQ6x534jVpGk"
+          "file_id": "file-J9Fjkyj41kg8QY8qxjj3010Q",
+          "index_id": "file-J9Fjp7j41kg6zqZgVXbPj8b9"
           }
         ]
       },
@@ -135,8 +135,8 @@
         "required_fields": "Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
         "resource_files": [
           {
-          "file_id": "file-J8ZXyQQ4bq8BB2FVPBf6zyQ7",
-          "index_id": "file-J8ZXyVj4bq81GJGYVzBZp4gv"
+          "file_id": "file-J9Z6q6j4bq86qBjXV8QgypY4",
+          "index_id": "file-J9Z6q804bq8JK19G06Z3Vk53"
           }
         ]
       }
