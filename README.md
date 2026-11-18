@@ -33,7 +33,7 @@ These json files provides information about annotations, plugins, required field
 | **SpliceAI** | spliceai_scores.masked.snv.hg19.vcf.gz, spliceai_scores.masked.indel.hg19.vcf.gz | spliceai_scores.masked.snv.hg38.vcf.gz, spliceai_scores.masked.indel.hg38.vcf.gz |
 | **Prev_Interpret (i.e. Inca)** | - | 261111_inca_germline_GRCh38.vcf.gz |
 | **IncludeVariant** | GRCh37_inclusion_list_v1.0.1.vcf.gz | GRCh38_inclusion_list_v1.0.0.vcf.gz |
-| **ExcludeVariant** | GRCh37_optimised_filtering_excluded_variants_v1.0.1.vcf.gz | GRCh38_exclusion_list_v1.2.0.vcf.gz |
+| **ExcludeVariant** | GRCh37_optimised_filtering_excluded_variants_v1.0.1.vcf.gz | GRCh38_exclusion_list_v1.3.0.vcf.gz |
 
 
 ## Notes
